@@ -74,7 +74,7 @@ let mathml_node =
   let open HTML in
   let open MathML in
   p []
-    [ math []
+    [ math [xmlns]
         [ mtable []
             [ mtr []
                 [ mtd []
